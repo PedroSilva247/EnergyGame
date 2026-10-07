@@ -365,3 +365,6 @@ FodyWeavers.xsd
 
 
 *.vcxproj*
+
+CppProperties.json
+*.config

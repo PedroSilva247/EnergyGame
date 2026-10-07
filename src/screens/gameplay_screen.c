@@ -1,0 +1,11 @@
+#include <raylib.h>
+#include "../../include/gameplay_screen.h"
+#include "../../include/map.h"
+#define N 6
+
+
+
+
+void DrawGameplayScreen(char map[N][N]) {
+		DrawMap(map);
+}
