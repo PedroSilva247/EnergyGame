@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Origem\include">
+      <UniqueIdentifier>{eb5010d4-7ebc-4a7d-947f-fae6ac805187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\src">
+      <UniqueIdentifier>{d520bc6b-025d-45a9-b989-b3c1be94dd7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\src\core">
+      <UniqueIdentifier>{f2ff0fc9-da78-4619-8b4f-8ee986313ca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\src\entities">
+      <UniqueIdentifier>{3f35b7e7-b3b4-4e25-81c6-9c1d0cd8bce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\src\screens">
+      <UniqueIdentifier>{57635866-9cb8-40b8-a262-e96ab76878f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/core/main.c">
+      <Filter>Arquivos de Origem\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\screens\gameplay_screen.c">
+      <Filter>Arquivos de Origem\src\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\map.c">
+      <Filter>Arquivos de Origem\src\entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\gameplay_screen.h">
+      <Filter>Arquivos de Origem\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\map.h">
+      <Filter>Arquivos de Origem\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

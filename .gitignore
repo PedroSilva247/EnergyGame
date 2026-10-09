@@ -364,7 +364,17 @@ FodyWeavers.xsd
 
 
 
-*.vcxproj*
+# *.vcxproj*
 
 CppProperties.json
 *.config
+
+# Code::Blocks
+*.depend
+*.layout
+bin/
+obj/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db

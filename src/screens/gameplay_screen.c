@@ -4,8 +4,6 @@
 #define N 6
 
 
-
-
-void DrawGameplayScreen(char map[N][N]) {
+void DrawGameplayScreen(Map* map) {
 		DrawMap(map);
 }
